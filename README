@@ -9,20 +9,15 @@ instructions.
     INSTALLING DEPENDENCIES
 ================================
 
-There are 4 packages that this relies upon.
-These can be installed with the following line of code run on the command line:
+Clone this repo:
+`git clone https://github.com/harveyrandall/fitbit.git`
 
-  npm install -g request express body-parser fitbit-node
+Install dependencies:
+`npm install`
 
-If this fails use sudo:
-
-  sudo npm install -g request express body-parser fitbit-node
 
 ================================
        RUNNING THE FILE
 ================================
 
-Navigate to the directory in the command line.
-Run the command:
-
-  node server15.js
+`npm run`
