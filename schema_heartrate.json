@@ -1,0 +1,15 @@
+{
+    "schema": {
+        "version": "1.0.0",
+        "config": {},
+        "topDef": {
+            "type": "record",
+            "properties": {
+                "name": { "type": "string", "optional": "false" },
+                "encodedId": { "type": "string", "optional": "false" },
+                "dateTime": { "type": "date", "optional": "false" },
+                "restingHeartRate": { "type": "int", "optional": "false" }
+            }
+        }
+    }
+}

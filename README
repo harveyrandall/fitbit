@@ -1,0 +1,28 @@
+================================
+      INSTALLING NODE.JS
+================================
+
+Node.js can be installed by going to https://nodejs.org/en/ and following the
+instructions.
+
+================================
+    INSTALLING DEPENDENCIES
+================================
+
+There are 4 packages that this relies upon.
+These can be installed with the following line of code run on the command line:
+
+  npm install -g request express body-parser fitbit-node
+
+If this fails use sudo:
+
+  sudo npm install -g request express body-parser fitbit-node
+
+================================
+       RUNNING THE FILE
+================================
+
+Navigate to the directory in the command line.
+Run the command:
+
+  node server15.js

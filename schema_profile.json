@@ -1,0 +1,18 @@
+{
+    "schema": {
+        "version": "1.0.0",
+        "config": {},
+        "topDef": {
+            "type": "record",
+            "properties": {
+                "name": { "type": "string", "optional": "false" },
+                "encodedId": { "type": "string", "optional": "false" },
+                "age": { "type": "int", "optional": "false" },
+                "dateOfBirth": { "type": "date", "optional": "false" },
+                "gender": { "type": "string", "optional": "false" },
+                "memberSince": { "type": "date", "optional": "false" },
+                "strideLengthWalking": { "type": "int", "optional": "false" }
+            }
+        }
+    }
+}
