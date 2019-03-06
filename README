@@ -10,14 +10,18 @@ instructions.
 ================================
 
 Clone this repo:
-`git clone https://github.com/harveyrandall/fitbit.git`
+~~~
+git clone https://github.com/harveyrandall/fitbit.git`
+~~~
 
 Install dependencies:
-`npm install`
-
+~~~
+npm install
+~~~
 
 ================================
        RUNNING THE FILE
 ================================
-
-`npm run`
+~~~
+npm run
+~~~
